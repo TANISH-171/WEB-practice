@@ -65,6 +65,8 @@ align-items: center;
     align-items: center;
     cursor: pointer;
     margin-right: 25px;
+    filter: brightness(0.5);
+    filter:  url("../../media/examples/shadow.svg#element-id");
 }
 .right img:hover{
 opacity: 0.5;
@@ -79,10 +81,11 @@ opacity: 0.5;
     background-color: whitesmoke;
 }
 #lebron{
+    position: fixed;
     display: flex;
     width: 100%;
     height: auto;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     background-color:rgba(220, 220, 220, 0.9);
 }
